@@ -1,5 +1,9 @@
 # usu stores usu
 
+<p align='center'>
+<img src="https://raw.githubusercontent.com/usu-dev/usu/main/assets/logo.svg" width=200>
+</p>
+
 Equivalent data structures written in usu vs json.
 
 <table>
