@@ -121,6 +121,7 @@ Strings are implicit but can be made explicit
   :int 5
   :float 5.5
   :name John Doe
+  :boolean True # also true
   :version "0.1.0"
 )
 ```
