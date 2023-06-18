@@ -81,7 +81,11 @@ Equivalent data structures written in usu vs json.
 
 ```usu
 (
-  :list (list of strings)
+  :inline-list (list of strings)
+  :multiline-list (
+    here newlines can end strings
+    meaning these are each one string
+  )
   :string unquoted string
 )
 ```
@@ -89,7 +93,11 @@ Equivalent data structures written in usu vs json.
 
 ```json
 {
-  "list": ["list", "of", "strings"],
+  "inline-list": ["list", "of", "strings"],
+  "multiline-list": [
+    "here newlines can end strings",
+    "meaning these are each one string"
+  ]
   "string": "unquoted string",
 }
 ```
@@ -121,7 +129,6 @@ Strings are implicit but can be made explicit
   :int 5
   :float 5.5
   :name John Doe
-  :boolean True # also true
   :version "0.1.0"
 )
 ```

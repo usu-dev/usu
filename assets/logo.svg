@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35mm"
-   height="35mm"
-   viewBox="0 0 35 35"
+   width="34.284588mm"
+   height="34.284588mm"
+   viewBox="0 0 34.284588 34.284588"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,9 +13,9 @@
      id="defs2" />
   <g
      id="layer1"
-     transform="translate(-35.267176,-96.145941)">
+     transform="translate(-35.624882,-96.503647)">
     <rect
-       style="fill:#1e1e2e;fill-opacity:1;stroke:#ffffff;stroke-width:0.715412;stroke-linecap:round;stroke-dasharray:1.41965, 1.41965;paint-order:stroke fill markers"
+       style="fill:#1e1e2e;fill-opacity:1;stroke:none;stroke-width:0.715412;stroke-linecap:round;stroke-dasharray:1.41965, 1.41965;paint-order:stroke fill markers"
        id="rect898"
        width="34.284588"
        height="34.284588"
@@ -25,29 +25,32 @@
        aria-label="( )"
        transform="scale(0.98524866,1.0149722)"
        id="text236"
-       style="font-weight:bold;font-size:20.8237px;line-height:1.25;font-family:'MonoLisa Nerd Font';-inkscape-font-specification:'MonoLisa Nerd Font, Bold';stroke-width:0.216914">
+       style="font-weight:bold;font-size:20.8237px;line-height:1.25;font-family:'MonoLisa Nerd Font';-inkscape-font-specification:'MonoLisa Nerd Font, Bold';stroke:none;stroke-width:0.216914">
       <path
          d="m 43.770092,121.13194 c -2.144841,-2.4572 -3.269321,-5.6224 -3.269321,-9.37067 0,-3.47755 1.12448,-6.49699 3.269321,-8.95419 h -2.686258 c -2.353078,3.01944 -3.373439,5.85146 -3.373439,9.37067 0,3.22767 1.020361,5.93475 3.373439,8.95419 z"
-         style="fill:#f5e0dc"
+         style="fill:#f5e0dc;stroke:none"
          id="path294" />
       <path
          d="m 63.344344,102.80708 c 2.144841,2.4572 3.269321,5.6224 3.269321,9.37067 0,3.47756 -1.12448,6.49699 -3.269321,8.95419 h 2.686257 c 2.353078,-3.01944 3.37344,-5.85146 3.37344,-9.37067 0,-3.22767 -1.020362,-5.93475 -3.37344,-8.95419 z"
-         style="fill:#f5e0dc"
+         style="fill:#f5e0dc;stroke:none"
          id="path296" />
     </g>
     <g
        aria-label="usu"
        id="text1066"
-       style="font-style:italic;font-size:10.5833px;line-height:1.25;font-family:'MonoLisa Nerd Font';-inkscape-font-specification:'MonoLisa Nerd Font, Italic';fill:#74c7ec;stroke-width:0.264583">
+       style="font-style:italic;font-size:10.5833px;line-height:1.25;font-family:'MonoLisa Nerd Font';-inkscape-font-specification:'MonoLisa Nerd Font, Italic';fill:#74c7ec;stroke:none;stroke-width:0.264583">
       <path
          d="m 47.138032,114.50319 c -0.96308,0.99483 -1.513412,1.34408 -2.127243,1.34408 -0.677331,0 -0.878414,-0.37042 -0.751414,-1.06891 l 0.709081,-4.04282 h -0.952497 l -0.740831,4.16982 c -0.201083,1.16416 0.285749,1.75682 1.280579,1.75682 0.93133,0 1.767411,-0.52916 2.518825,-1.47107 l -0.0635,1.36524 h 0.719664 l 1.02658,-5.82081 H 47.80478 Z"
-         id="path346" />
+         id="path346"
+         style="stroke:none" />
       <path
          d="m 50.027267,116.22827 c 0.624414,0.32808 1.418162,0.43391 2.000243,0.43391 1.587495,0 2.656408,-0.76199 2.656408,-1.92616 0,-1.86266 -3.026823,-1.03716 -3.026823,-2.30716 0,-0.58208 0.529165,-0.92074 1.566328,-0.92074 0.497415,0 1.02658,0.0741 1.714495,0.40216 l 0.158749,-0.89958 c -0.582081,-0.254 -1.195913,-0.381 -1.820327,-0.381 -1.576912,0 -2.614075,0.8255 -2.614075,1.97908 0,1.85208 3.01624,1.10066 3.01624,2.28599 0,0.56092 -0.571498,0.889 -1.555745,0.889 -0.666748,0 -1.291163,-0.13758 -1.936744,-0.45508 z"
-         id="path348" />
+         id="path348"
+         style="stroke:none" />
       <path
          d="m 60.684643,114.50319 c -0.96308,0.99483 -1.513412,1.34408 -2.127243,1.34408 -0.677331,0 -0.878414,-0.37042 -0.751415,-1.06891 l 0.709082,-4.04282 H 57.56257 l -0.740831,4.16982 c -0.201083,1.16416 0.285749,1.75682 1.280579,1.75682 0.93133,0 1.767411,-0.52916 2.518825,-1.47107 l -0.0635,1.36524 h 0.719665 l 1.02658,-5.82081 h -0.952497 z"
-         id="path350" />
+         id="path350"
+         style="stroke:none" />
     </g>
   </g>
 </svg>
