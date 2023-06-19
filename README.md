@@ -164,3 +164,8 @@ Space between start/end of values and keys is ignored
 # arrows indicate trimmed whitespace
 # plus-signs indicate necessary whitespace i.e. between key-values
 ```
+
+<hr>
+<a href="https://github.com/usu-dev">
+<img src="./assets/footer.svg" width=250>
+</a>
