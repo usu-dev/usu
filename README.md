@@ -11,7 +11,7 @@ Equivalent data structures written in usu vs json.
 <tr><td>
 
 ```usu
-(:key value)
+:key value
 ```
 </td><td>
 
@@ -33,10 +33,8 @@ Equivalent data structures written in usu vs json.
 <tr><td>
 
 ```usu
-(
-  :key (
+:key (
     :nested-key value
-  )
 )
 ```
 </td><td>
@@ -52,10 +50,8 @@ Equivalent data structures written in usu vs json.
 <tr><td>
 
 ```usu
-(
-  :package usu
-  :version "0.1.0"
-)
+:package usu
+:version "0.1.0"
 ```
 </td><td>
 
@@ -69,25 +65,12 @@ Equivalent data structures written in usu vs json.
 <tr><td>
 
 ```usu
-(:package usu :version "0.1.0" :dependencies ())
-```
-</td><td>
-
-```json
-{"package": "usu","version": "0.1.0","dependencies":[]}
-```
-</td></tr>
-<tr><td>
-
-```usu
-(
-  :inline-list (list of strings)
-  :multiline-list (
-    here newlines can end strings
-    meaning these are each one string
-  )
-  :string unquoted string
+:inline-list (list of strings)
+:multiline-list (
+  here newlines can end strings
+  meaning these are each one string
 )
+:string unquoted string
 ```
 </td><td>
 
@@ -102,7 +85,6 @@ Equivalent data structures written in usu vs json.
 }
 ```
 </td></tr>
-
 <tr><td>
 
 ```usu
@@ -122,15 +104,25 @@ Equivalent data structures written in usu vs json.
 </td></tr>
 </table>
 
+## Implicit Features
+
+When the first non-whitespace/comment is a key the top level map is implied meaning the following documents are equivalent.
+
+```usu
+(:key value :second-key value)
+```
+
+```usu
+:key value :second-key value
+```
 
 Strings are implicit but can be made explicit
+
 ```usu
-(
-  :int 5
-  :float 5.5
-  :name John Doe
-  :version "0.1.0"
-)
+:int 5
+:float 5.5
+:name John Doe
+:version "0.1.0"
 ```
 
 Things `usu` can do that json can't:
@@ -139,23 +131,22 @@ Things `usu` can do that json can't:
 #(
   this is block comment
 )#
-(
-  :unquoted unquoted strings
-  :single-quoted 'single quoted'
-  :double-quoted "double quoted"
-  :backtick-quoted `This'll escape all quotes`
 
-  :multiline-string
-    This string has newlines and starts at the
-    first non-whitespace character,
-    with leading whitespace removed.
-    And a trailing newline
+:unquoted unquoted strings
+:single-quoted 'single quoted'
+:double-quoted "double quoted"
+:backtick-quoted `This'll escape all quotes`
 
-  :folded-string >
-    This string has no newlines
-    and will replace any newlines with
-    a single space
-)
+:multiline-string
+  This string has newlines and starts at the
+  first non-whitespace character,
+  with leading whitespace removed.
+  And a trailing newline
+
+:folded-string >
+  This string has no newlines
+  and will replace any newlines with
+  a single space
 ```
 
 
