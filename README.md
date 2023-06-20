@@ -149,7 +149,7 @@ Things `usu` can do that json can't:
     This string has newlines and starts at the
     first non-whitespace character,
     with leading whitespace removed.
-    And trailing newline
+    And a trailing newline
 
   :folded-string >
     This string has no newlines
