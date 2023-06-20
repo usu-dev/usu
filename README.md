@@ -144,15 +144,17 @@ Things `usu` can do that json can't:
   :single-quoted 'single quoted'
   :double-quoted "double quoted"
   :backtick-quoted `This'll escape all quotes`
-  :multiline-string `
+
+  :multiline-string
     This string has newlines and starts at the
     first non-whitespace character,
     with leading whitespace removed.
-    Backticks will escape all characters including
-    parenthesis, colons and quotes -> ():'".
-    The backticks themselves can be escaped
-    with a single backslash i.e. \`
-    `
+    And trailing newline
+
+  :folded-string >
+    This string has no newlines
+    and will replace any newlines with
+    a single space
 )
 ```
 
@@ -165,7 +167,8 @@ Space between start/end of values and keys is ignored
 # plus-signs indicate necessary whitespace i.e. between key-values
 ```
 
-<hr>
-<a href="https://github.com/usu-dev">
-<img src="./assets/footer.svg" width=250>
-</a>
+&nbsp;
+
+<p align="center"><img src="https://raw.githubusercontent.com/usu-dev/usu/main/assets/footer.svg" width="100%"></p>
+<p align="center">Copyright &copy; 2023-present <a href="https://github.com/usu-dev" target="_blank">Usu Org</a>
+<a>
