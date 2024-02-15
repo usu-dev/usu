@@ -27,14 +27,14 @@ Equivalent data structures written in usu vs json.
 </td><td>
 
 ```json
-[1,2,3,4,5]
+["1","2","3","4","5"]
 ```
 </td></tr>
 <tr><td>
 
 ```usu
 :key (
-    :nested-key value
+ :nested-key value
 )
 ```
 </td><td>
@@ -51,7 +51,7 @@ Equivalent data structures written in usu vs json.
 
 ```usu
 :package usu
-:version "0.1.0"
+:version 0.1.0
 ```
 </td><td>
 
@@ -66,7 +66,7 @@ Equivalent data structures written in usu vs json.
 
 ```usu
 :inline-list (list of strings)
-:multiline-list (
+:multiline-list: (
   here newlines can end strings
   meaning these are each one string
 )
@@ -80,7 +80,7 @@ Equivalent data structures written in usu vs json.
   "multiline-list": [
     "here newlines can end strings",
     "meaning these are each one string"
-  ]
+  ],
   "string": "unquoted string",
 }
 ```
@@ -116,15 +116,6 @@ When the first non-whitespace/comment is a key the top level map is implied mean
 :key value :second-key value
 ```
 
-Strings are implicit but can be made explicit
-
-```usu
-:int 5
-:float 5.5
-:name John Doe
-:version "0.1.0"
-```
-
 Things `usu` can do that json can't:
 ```usu
 # this is a comment
@@ -149,14 +140,6 @@ Things `usu` can do that json can't:
   a single space
 ```
 
-
-Space between start/end of values and keys is ignored
-```usu
-(  :a-key some value :next-key "some other value"  )
- ^^      +          +         +     ^            ^^
-# arrows indicate trimmed whitespace
-# plus-signs indicate necessary whitespace i.e. between key-values
-```
 
 &nbsp;
 
