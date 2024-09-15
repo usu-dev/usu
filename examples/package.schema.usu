@@ -1,24 +1,20 @@
-# a possible schema writtin in usu for usu
+# a possible schema written in usu for usu
 :name (:type string)
 :number (:type int)
 :version (:type string)
-:scripts (
-  :type map
-  :fields (
-    :test (:type string)
-  )
-)
-:repository (
-  :type map
-  :fields (
-    :git (:type string)
-)
+:scripts
+  (:type map
+   :fields
+     (:test (:type string)))
+:repository
+  (:type map
+   :fields
+     (:git (:type string))
 :keywords (:type array :elems (:type string))
 :author (:type string)
 :license (:type string)
-:bugs (
-  :type map
-  :fields (
-    :url (:type string)
-)
+:bugs
+  (:type map
+   :fields
+     (:url (:type string))
 :homepage (:type string)

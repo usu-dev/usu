@@ -34,8 +34,7 @@ Equivalent data structures written in usu vs json.
 
 ```usu
 :key (
- :nested-key value
-)
+ :nested-key value)
 ```
 </td><td>
 
@@ -68,8 +67,7 @@ Equivalent data structures written in usu vs json.
 :inline-list (list of strings)
 :multiline-list: (
   here newlines can end strings
-  meaning these are each one string
-)
+  meaning these are each one string)
 :string unquoted string
 ```
 </td><td>
@@ -88,10 +86,8 @@ Equivalent data structures written in usu vs json.
 <tr><td>
 
 ```usu
-(
-  :empty-list ()
-  :empty-map (:)
-)
+(:empty-list ()
+ :empty-map (:))
 ```
 </td><td>
 
