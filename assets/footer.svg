@@ -723,13 +723,6 @@
        id="g966"
        transform="translate(28.634194,3.5358275)"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:0">
-      <rect
-         style="fill:#1e1e2e;fill-opacity:1;stroke:none;stroke-width:0.659818;stroke-linecap:round;stroke-dasharray:1.30933, 1.30933;paint-order:stroke fill markers"
-         id="rect1669"
-         width="592.33954"
-         height="23.126963"
-         x="-104.51408"
-         y="155.11375" />
       <g
          id="g3422"
          style="stroke:none"
@@ -744,15 +737,15 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.849px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f5c2e7;fill-opacity:1;stroke:none;stroke-width:0.106368;stroke-dasharray:none;stroke-opacity:1"
              x="53.28046"
              y="172.88318"
-             id="tspan238">(:<tspan
+             id="tspan238">{.<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.849px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2cdcd;fill-opacity:1;stroke:none;stroke-width:0.106368"
    id="tspan2580">organization</tspan> <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.849px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#a6e3a1;fill-opacity:1;stroke:none;stroke-width:0.106368"
-   id="tspan2576">usu</tspan> :<tspan
+   id="tspan2576">usu</tspan> .<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.849px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2cdcd;fill-opacity:1;stroke:none;stroke-width:0.106368"
    id="tspan2582">license</tspan> <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.849px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#a6e3a1;fill-opacity:1;stroke:none;stroke-width:0.106368"
-   id="tspan2578">MIT</tspan>)</tspan></text>
+   id="tspan2578">MIT</tspan>}</tspan></text>
         <rect
            style="fill:#cdd6f4;fill-opacity:1;stroke:none;stroke-width:0.185308;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
            id="rect36694-6"
